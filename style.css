@@ -1,0 +1,31 @@
+:root {
+    --div-background-color:red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:var(--background-color, pink);
+        }
+}
+
+.btn {
+    padding: 1.50rem;
+    margin: .50rem;
+    border-radius: 10px;
+}
+
+#light-theme-btn{
+    color: black;
+    background-color: white;
+}
+
+#dark-theme-btn {
+    color: white;
+    background-color: black;
+}
